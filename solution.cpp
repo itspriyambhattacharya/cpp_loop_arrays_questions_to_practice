@@ -164,5 +164,13 @@ int main(void)
 
     // Q12. Write a 'for' loop to remove the last element from the array [6,8,2,1]
 
+    vector<int> po = {6, 8, 2, 1};
+    po.pop_back();
+    for (int i = 0; i < po.size(); i++)
+    {
+        cout << po[i] << "\t";
+    }
+    cout << endl;
+
     return 0;
 }
