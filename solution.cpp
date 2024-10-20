@@ -154,6 +154,14 @@ int main(void)
 
     // Q11. Write a 'for' loop to add 125 and the end of the array [1,4,6]
 
+    vector<int> pp = {1, 4, 6};
+    pp.push_back(125);
+    for (int i = 0; i < pp.size(); i++)
+    {
+        cout << pp[i] << "\t";
+    }
+    cout << endl;
+
     // Q12. Write a 'for' loop to remove the last element from the array [6,8,2,1]
 
     return 0;
