@@ -30,7 +30,7 @@ int main(void)
         cout << counter[i] << "\t";
     }
 
-    // Q3. Write a 'do-while' loop to accept a number from user  until user says "n" keep accepting
+    // Q3. Write a 'do-while' loop to accept a number from user  until user says "n" keep accepting and store them in a vector "numbersInput"
 
     int num;
     char ch;
@@ -43,6 +43,15 @@ int main(void)
     } while (ch == 'y');
 
     // Q4. Write a 'do-while' loop that adds numbers from 1 to 4 and stores the answer in a vsriable named 'totalSum'
+
+    int n4 = 1;
+    int s4 = 0;
+    do
+    {
+        s4 += n4;
+        n4++;
+    } while (n4 <= 4);
+    cout << "\nThe Sum is " << s4 << endl;
 
     // Q5. Write a 'for' loop that multiplies each element of the array [2, 5, 8, 9] by 2 and stores the result in a new array named multipliedArray
 
