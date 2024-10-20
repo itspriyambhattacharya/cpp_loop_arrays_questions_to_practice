@@ -14,7 +14,7 @@ int main(void)
 
     // Q5. Write a 'for' loop that multiplies each element of the array [2, 5, 8, 9] by 2 and stores the result in a new array named multipliedArray
 
-    // Q6. Write a 'for' loop that iterators of the following list [2,5,6,1,4,7] and stores each item into anoter list named 'newList'
+    // Q6. Write a 'for' loop that iterators of the following list [2,5,6,1,4,7] and stores each item into another list named 'newList'
 
     // Q7. Write a 'for' loop that iterates over a vector [1,2,3,4,5,6,7,8,9] and stops the loop when 7 is found.
 
