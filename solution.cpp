@@ -36,13 +36,21 @@ int main(void)
 
     int num;
     char ch;
+    vector<int> numbersList;
     do
     {
         cout << "\nEnter number:\t";
         cin >> num;
+        numbersList.push_back(num);
         cout << "\nWant to insert more? (y/n):\t";
         cin >> ch;
     } while (ch == 'y');
+
+    for (int i = 0; i < numbersList.size(); i++)
+    {
+        cout << numbersList[i] << "\t";
+    }
+    cout << endl;
 
     // Q4. Write a 'do-while' loop that adds numbers from 1 to 4 and stores the answer in a vsriable named 'totalSum'
 
