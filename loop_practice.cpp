@@ -8,7 +8,7 @@ int main(void)
 
     // Q2. Write a 'while' loop to count down from 5 to 1 and store in a vector named 'counter
 
-    // Q3. Write a 'do-while' loop to accept a number from user  until user says "no" keep accepting
+    // Q3. Write a 'do-while' loop to accept a number from user  until user says "no" keep accepting and store them in a vector "numbersInput
 
     // Q4. Write a 'do-while' loop that adds numbers from 1 to 4 and stores the answer in a vsriable named 'totalSum'
 
