@@ -22,5 +22,11 @@ int main(void)
 
     // Q9. Write a 'for' loop that iterates over an array[2,5,6,7,8], skips 6 and multiplies rest by 2 and store in a new array named "doubleVale"
 
+    // Q10. Write a condition to check if an array is empty or not.
+
+    // Q11. Write a 'for' loop to add 125 and the end of the array [1,4,6]
+
+    // Q12. Write a 'for' loop to remove the last element from the array [6,8,2,1]
+
     return 0;
 }
