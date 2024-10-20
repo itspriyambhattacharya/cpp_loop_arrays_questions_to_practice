@@ -141,6 +141,17 @@ int main(void)
 
     // Q10. Write a condition to check if an array is empty or not.
 
+    cout << endl;
+    vector<int> checkVect = {5};
+    if (checkVect.size() == 0)
+    {
+        cout << "Empty\n";
+    }
+    else
+    {
+        cout << "Not Empty" << endl;
+    }
+
     // Q11. Write a 'for' loop to add 125 and the end of the array [1,4,6]
 
     // Q12. Write a 'for' loop to remove the last element from the array [6,8,2,1]
