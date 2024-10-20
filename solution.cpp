@@ -83,7 +83,35 @@ int main(void)
 
     // Q7. Write a 'for' loop that iterates over a vector [1,2,3,4,5,6,7,8,9] and stops the loop when 7 is found.
 
-    // Q8. Write a 'for' loop that iterates over a vector [1,2,3,4,5,6,7,8,9,10,11] and skips the loop when 3 is found.
+    cout << "\n";
+    vector<int> br = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    for (int i = 0; i < br.size(); i++)
+    {
+        if (br[i] == 7)
+        {
+            break;
+        }
+        cout << br[i] << "\t";
+    }
+
+    // Q8. Write a 'for' loop that iterates over a vector [1,2,3,4,5,6,7,8,9,10,11] and skips the loop when 3 is found and store the numbers in another vector cpCont
+
+    cout << "\n";
+    vector<int> cont = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+    vector<int> cpCont;
+    for (int i = 0; i < cont.size(); i++)
+    {
+        if (cont[i] == 3)
+        {
+            continue;
+        }
+        cpCont.push_back(cont[i]);
+    }
+
+    for (int i = 0; i < cpCont.size(); i++)
+    {
+        cout << cpCont[i] << "\t";
+    }
 
     // Q9. Write a 'for' loop that iterates over an array[2,5,6,7,8], skips 6 and multiplies rest by 2 and store in a new array named "doubleVale"
     cout << endl;
