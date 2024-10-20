@@ -65,7 +65,7 @@ Each problem has been carefully designed to help students understand:
 12. **Remove the Last Element of an Array**  
     Write a `for` loop to remove the last element from the array `[6, 8, 2, 1]`.
 
-Each problem is accompanied by example code and explanations, ensuring students can follow along and understand the thought process behind each solution.
+Each problem is accompanied by example code and explanations, ensuring everyone can follow along and understand the thought process behind each solution.
 
 ## How to Use
 
