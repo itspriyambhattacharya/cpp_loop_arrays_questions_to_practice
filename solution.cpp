@@ -69,6 +69,17 @@ int main(void)
     }
 
     // Q6. Write a 'for' loop that iterators of the following list [2,5,6,1,4,7] and stores each item into another list named 'newList'
+    cout << "\n";
+    vector<int> copy = {2, 5, 6, 1, 4, 7};
+    vector<int> newList;
+    for (int i = 0; i < copy.size(); i++)
+    {
+        newList.push_back(copy[i]);
+    }
+    for (int i = 0; i < newList.size(); i++)
+    {
+        cout << copy[i] << "\t";
+    }
 
     // Q7. Write a 'for' loop that iterates over a vector [1,2,3,4,5,6,7,8,9] and stops the loop when 7 is found.
 
